@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Autofill Emta tax declaration stocks",
+  "version": "1.0",
+  "description": "Autofill Emta tax declaration stocks form, section 8",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "trigger-stockfunds": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Trigger stock autofill for tax declaration"
+    }
+  },
+  "action": {
+    "default_title": "Emta tax declaration stocks autofill"
+  }
+}
+
