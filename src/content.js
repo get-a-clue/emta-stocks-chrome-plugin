@@ -8,10 +8,10 @@
   const DEFAULT_COUNTRY = "США";
 
   function getCountryByCountryCode(code) {
-     if (code === "DK") return "Дания";
-     if (code === "CN") return "Китай";
-     if (code === "BR") return "Бразилия";
      if (code === "NO") return "Норвегия";
+     if (code === "DK") return "Дания";
+     if (code === "CN") return "Китайская Республика";
+     if (code === "BR") return "Бразилия";
      if (code === "HK") return "Гонконг";
      return DEFAULT_COUNTRY;
   }
@@ -221,7 +221,7 @@
   if (commission >= 0.5) {
     const inputFieldAppropriationCost = document.querySelector("#add_stockfunds_appropriationCost");
     if (inputFieldAppropriationCost) {
-      const finalCommission = commission < 1.3 ? 1 : Math.round(commission * 100) / 100;
+      const finalCommission = Math.round(commission * 100) / 100;
       inputFieldAppropriationCost.value = Math.round(finalCommission);
       dispatchEventInput(inputFieldAppropriationCost);
     }
