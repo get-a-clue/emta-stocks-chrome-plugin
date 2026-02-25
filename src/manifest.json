@@ -1,9 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Autofill Emta tax declaration stocks",
-  "version": "1.0",
+  "version": "2026.1",
   "description": "Autofill Emta tax declaration stocks form, section 8",
   "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://api.frankfurter.app/*" 
+  ],  
   "background": {
     "service_worker": "background.js"
   },
