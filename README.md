@@ -1,5 +1,9 @@
 # emta-stocks-chrome-plugin
-It helps in filling stocks selling reports for EMTA tax declarations by providing single line with sell operation. The sell operation can be created, for example, using IBRK "Flex query".
+It helps in filling stocks selling reports for EMTA tax declarations by providing single line with sell operation. The sell operation can be created, for example, using IBRK "Flex query":
+
+
+<img width="1259" height="461" alt="Screenshot 2026-02-28 at 18 46 10" src="https://github.com/user-attachments/assets/f7b00c3f-6433-4884-8ccc-30c10a4cc8c8" />
+
 
 <img width="963" height="715" alt="Screenshot 2026-02-28 at 18 45 44" src="https://github.com/user-attachments/assets/faacb6e2-3aa1-4908-8d6a-2cfb1ac06b33" />
 
